@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+    overflow-x: hidden;
+    font-family: "Lato", sans-serif;
+    color: #505962;
+}
+
+/* --- Navbar --- */
+
+.navbar {
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0, .6) !important;
+}
+
+.navbar-brand img {
+    height: 2rem;
+}
+
+.navbar h5{
+    padding-top: 1rem;
+}
+
+.navbar-nav li {
+    padding: .3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar h5:hover, .navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #59a161;
+}
+
+
+/* --- Home Section --- */
+
+
+.home{
+    background-image: url('img/pexels-photo-589802.jpeg') !important;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.dark{
+    background-color: rgba(0, 0, 0, .75);
+    height: 100%;
+    z-index: 2;
+}
+
+.caption {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 12rem;
+    z-index: 3;
+    color: white;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h4 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.input-group{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* --- Who We Are Section --- */
+.who{
+    margin: 2rem 0;
+}
+
+/* .who-body{
+    max-width:70%; 
+} */
+
+.line{
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid #505962;
+    margin-bottom: 1rem;
+}
+
+#img1{
+    width:5rem;
+    padding: 1.5rem 0;
+}
+
+
+
+/* --- Our Goals Section --- */
+.jumbotron{
+    background-color: rgb(36, 35, 35);
+    /* margin: 2rem 0; */
+    color: white;
+}
+
+.goals h4{
+    padding: .7rem 0rem;
+}
+
+.goals img{
+    width: 4rem;
+}
+
+
+/* --- Partners Section --- */
+.partners{
+    margin: 2rem 0;
+}
+
+.partners img{
+    width: 4rem;
+}
+
+/* --- Donate Section --- */
+.donate{
+    margin: 0!important;
+}
+
+.donate img{
+    width: 5rem;
+    padding: 1.5rem 0;
+}
+
+.modal{
+    color: #505962;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 2rem;
+}
+
+footer img {
+    width: 2rem;
+    padding-bottom: 1rem;
+}
+
+footer a {
+    color: white;
+}
+
+footer .svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+
+footer .svg-inline--fa:hover {
+    color: #1ebba3 !important;
+}
+
+.socket {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+}
+
+
+
+/* ---- Media Queries --- */
+
+/* Align center the links on the navbar when in tablet view and lower */
+@media (max-width: 992px) {
+    .navbar-nav{
+        text-align: center!important;
+    }
+}
